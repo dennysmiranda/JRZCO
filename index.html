@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/styles/style.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- jQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <title>Juarez Concrete Co.</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <img src="./src/logo/JRZ-logo.svg" alt="">
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <ul class="nav-links">
+            <li>
+                <h4>
+                    <a href="#" class="black-c">Home</a>
+                </h4>
+            </li>
+            <li>
+                <h4>
+                    <a href="#" class="black-c">Projects</a>
+                </h4>
+            </li>
+            <li>
+                <h4>
+                    <a href="#" class="black-c">Services</a>
+                </h4>
+            </li>
+            <li>
+                <h4>
+                    <a href="#" class="black-c">Contact</a>
+                </h4>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <nav class="navmobile">
+        <li>
+            <h4>
+                <a href="#" class="black-c">Home</a>
+            </h4>
+        </li>
+        <li>
+            <h4>
+                <a href="#" class="black-c">Projects</a>
+            </h4>
+        </li>
+        <li>
+            <h4>
+                <a href="#" class="black-c">Services</a>
+            </h4>
+        </li>
+        <li class="lastchild-nm-r">
+            <h4>
+                <a href="#" class="black-c">Contact</a>
+            </h4>
+        </li>
+    </nav>
+
+    <!-- Home -->
+    <section class="home">
+        <div class="left orange-bc">
+            <div class="left-all-info">
+                <h1 class="m-title white-c">
+                    HIGH QUALITY, <br>
+                    PROFESSIONALISM, <br>
+                    GUARANTEED.
+                </h1>
+                <h4>
+                    <a href="#" class="freeEstimateBtn white-c">Free Estimate</a>
+                </h4>
+                <ul class="sm-links-home">
+                    <li>
+                        <a href="#" class="white-bc orange-c">
+                            <i class="fas fa-phone-alt"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="white-bc orange-c">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="white-bc orange-c">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+
+        </div>
+    </section>
+    <a href="#" class="fixedBtn white-c orange-bc animate__animated">
+        <i class="fas fa-comment"></i>
+        <h3>Need Help? <br>
+            Message Us</h3>
+    </a>
+
+    <!-- Projects -->
+    <section class="projects">
+        <div class="gallery-section">
+            <div class="inner-width">
+                <h1>Projects</h1>
+                <div class="gallery">
+
+                    <a href="src/imagecompressor/image1-min.jpg" class="image">
+                        <img src="src/imagecompressor/image1-min.jpg" alt="">
+                    </a>
+
+                    <a href="src/imagecompressor/image2-min.jpg" class="image">
+                        <img src="src/imagecompressor/image2-min.jpg" alt="">
+                    </a>
+
+                    <a href="src/imagecompressor/image3-min.jpg" class="image">
+                        <img src="src/imagecompressor/image3-min.jpg" alt="">
+                    </a>
+
+                    <a href="src/imagecompressor/image4-min.jpg" class="image">
+                        <img src="src/imagecompressor/image4-min.jpg" alt="">
+                    </a>
+
+                    <a href="src/imagecompressor/image5-min.jpg" class="image">
+                        <img src="src/imagecompressor/image5-min.jpg" alt="">
+                    </a>
+
+                    <a href="/src/imagecompressor/image7-min.jpg" class="image">
+                        <img src="/src/imagecompressor/image7-min.jpg" alt="">
+                    </a>
+
+                    <a href="src/imagecompressor/image5-min.jpg" class="image">
+                        <img src="src/imagecompressor/image5-min.jpg" alt="">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My JS -->
+    <script src="./js/app.js"></script>
+
+    <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/212ff292be.js" crossorigin="anonymous"></script>
+
+    <!-- Animate JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Pop Up JS -->
+    <script>
+        $(".gallery").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+    </script>
+</body>
+
+</html>
